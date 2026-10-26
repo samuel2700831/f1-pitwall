@@ -1,0 +1,72 @@
+{
+  "name": "F1 Pitwall",
+  "race": {
+    "year": 2025,
+    "country_name": "United States",
+    "location": "Austin",
+    "circuit": "Circuit of the Americas",
+    "session_name": "Race",
+    "session_key": 9888,
+    "meeting_key": 1271,
+    "laps": 56,
+    "slug": "austin-2025"
+  },
+  "driver": {
+    "name": "Charles Leclerc",
+    "driver_number": 16
+  },
+  "objective": "balanced",
+  "mode": "historical_conditions_with_simulated_strategy_branch",
+  "autonomy": "human_authorization_for_every_pit",
+  "demo": {
+    "navigation": "start_pause_accelerated_race_or_direct_lap_jump",
+    "default_boundary": "start_of_selected_driver_lap",
+    "on_demand_strategy_assessment": true,
+    "forward_jump": "reach_selected_lap_preserve_memory_and_refresh_all_three_specialists",
+    "backward_jump": "new_isolated_historical_scenario",
+    "memory": "durable_run_scoped_notes_assumptions_decisions_and_human_overrides",
+    "automatic_playback": "routine_stay_out_continues_only_material_strategy_changes_request_action",
+    "pace": "clean_wear_neutral_historical_reference_plus_simulated_tyres_and_damage",
+    "historical_leclerc_pits": false,
+    "agent_evidence": "live_status_tiles_agent_tabs_11_timestamped_tool_reads_and_lap_refresh_history",
+    "default_speed": 1,
+    "playback_speeds": [
+      1,
+      2,
+      3,
+      5,
+      10,
+      20,
+      40,
+      80
+    ],
+    "position": "carried_relative_time_simulation_against_gated_historical_rivals",
+    "pit_projection": "rejoin_rank_neighbor_gap_service_breakdown_and_sequential_catch_opportunities"
+  },
+  "llm": {
+    "status": "optional_server_configuration",
+    "provider": "gemini",
+    "default_model": "gemini-3.5-flash-lite",
+    "api": "generateContent",
+    "fallback": "local_analysis_with_human_review",
+    "paid_provider_fallback": false
+  },
+  "stage": "working_local_web_demo",
+  "agents": [
+    "Rival Analyst",
+    "Race Conditions & Incidents",
+    "Leclerc Performance",
+    "Strategy Director"
+  ],
+  "rivals": "historical_pace_and_stops",
+  "simulation_incidents": [
+    "front_wing",
+    "puncture",
+    "rain",
+    "dry",
+    "sc",
+    "vsc",
+    "green"
+  ],
+  "data_bundle": "austin-2025-demo.json"
+}

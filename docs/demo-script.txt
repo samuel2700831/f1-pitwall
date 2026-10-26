@@ -1,0 +1,23 @@
+Project overview
+This is F1 Pitwall, an agentic race strategy application for Charles Leclerc and Ferrari at the 2025 United States Grand Prix in Austin. The user is the strategy director. Open F1 historical observations provide the race world, but Leclerc's pit stops are controlled by the user. This recording shows the working local application, with synthetic narration.
+
+Start and control the replay
+The race starts at lap one. The top controls start, pause, stop, and reset the simulation. Actual simulation speed is available, along with faster demo speeds. Here, I accelerate through the opening laps, then pause. The three position cards show Leclerc's simulated position, the estimated rejoin position if he boxes now, and pace based catch opportunities. These forecasts are estimates, not guaranteed passes.
+
+Three specialists and their tools
+Jumping to lap fifteen processes the skipped laps and refreshes the evidence. The right hand workspace contains three analytical specialists. Rival Analyst reads the nineteen opponents, their gaps, tyres, pace, and observed pit activity. Race Conditions and Incidents reads weather, track temperature, flags, and simulated damage. Leclerc Performance reads simulated telemetry, tyre degradation, stint history, and pit consequences. Opening a tool reveals its returned values and checkpoint timestamp. These specialists are deterministic workers. The fourth agent, Strategy Director, is the one connected to Gemini.
+
+Gemini advice and human authorization
+The Director recalls saved intent, consults all three specialists, and compares numerical strategy options before proposing a call. The technical trace shows the actual tool sequence. A pit recommendation displays the flashing box alert. Reviewing it does not execute a stop. The user can inspect the expected pit loss and rejoin gap, choose tyres, and authorize the call. Only that authorization allows the simulator to box Leclerc.
+
+Incident simulation
+For a repeatable incident demonstration, I switch to Local analysis, which uses the same specialist tools without an LLM. Injecting a broken front wing creates persistent damage and triggers a new assessment. The projected stop includes the repair cost, while staying out retains the pace loss. The wing repair checkbox changes the preview. After the user authorizes the stop, the car is repaired and the stop history updates.
+
+Memory across lap jumps
+Next, I save an instruction to protect track position while prioritizing repairs. Jumping forward preserves that instruction alongside tyres, damage, and authorized stops. Refreshing the browser restores the same race. This is application state in SQLite, rather than relying on a chat transcript inside the model. Separate races have separate memory, and going backwards starts a new scenario to prevent future information from leaking into the past.
+
+Building with AI coding tools
+Codex helped turn conversational requirements into working increments: the replay foundation, agent tools, human approvals, Austin data, position forecasts, and the Ferrari inspired interface. Testing revealed an artificial position loss in an earlier timing model, as well as red flag and weather mismatch decision errors. Those findings drove numerical and policy corrections. The saved validation includes 173 unit tests, 84 local scenario evaluations, fourteen real Gemini scenarios, and fifteen HTTP checks.
+
+Final result and limits
+Stop ends this run and cancels pending instructions. Reset creates a fresh race while preserving previous history. The result is a working strategy workflow that gathers evidence, holds state, recovers from provider failures, and asks a human to authorize strategy changes. Historical rivals do not react to the user, and the tyre and damage model is illustrative. Cloud deployment comes next, with an external database planned for durable hosted saves.

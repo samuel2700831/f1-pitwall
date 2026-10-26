@@ -1,0 +1,9 @@
+.local
+.env
+.git
+__pycache__
+**/__pycache__
+data/raw
+data/timeline.json
+tests
+output

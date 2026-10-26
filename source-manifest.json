@@ -1,0 +1,250 @@
+{
+  "source_files": [
+    {
+      "path": "pitwall/__init__.py",
+      "bytes": 76,
+      "sha256": "1cfa4c941df34a02be99b75d52ec7730bfe6d385126dd53bab956f923514cfa4"
+    },
+    {
+      "path": "pitwall/__main__.py",
+      "bytes": 3865,
+      "sha256": "c29e0c7864494d14f45ab19c5792efdf93e968f643bdd88129d8a6eed0c5ec8c"
+    },
+    {
+      "path": "pitwall/agents.py",
+      "bytes": 23045,
+      "sha256": "bb2a528b39dd24e76b6e25adaeb60ab2fa5854f30af9c47d5eb1502f99d35006"
+    },
+    {
+      "path": "pitwall/configure.py",
+      "bytes": 4689,
+      "sha256": "46627694644a251d6277a17d744048900eba949e48b3a3d621e490cde7d38a55"
+    },
+    {
+      "path": "pitwall/data.py",
+      "bytes": 6692,
+      "sha256": "800a2597fcaeae3497baf92cc565c02fbc05954f8f86f8fee1c6999fefe53ccf"
+    },
+    {
+      "path": "pitwall/evaluation.py",
+      "bytes": 13599,
+      "sha256": "da68c8af87bb45d54a877de6a37a537ce2b43a2ac86608a329d09696f9d2ea2d"
+    },
+    {
+      "path": "pitwall/fetch_data.py",
+      "bytes": 3446,
+      "sha256": "9f6fd02e24afb76201190b18914516f65661f2c05c2312d58c5eb7d27d17addf"
+    },
+    {
+      "path": "pitwall/gemini.py",
+      "bytes": 8909,
+      "sha256": "35b9059ac7ae2105ed13f66599e4cd2ce681c9aae2dfd5d16c74fc0b778d9376"
+    },
+    {
+      "path": "pitwall/import_race.py",
+      "bytes": 4428,
+      "sha256": "36bd9dc467f49cfbe48e6f8fa76b0a123afe2b624ae9b7b2fca6fa0358dfe613"
+    },
+    {
+      "path": "pitwall/predeploy.py",
+      "bytes": 1620,
+      "sha256": "4d0d2529ab81c58a5227c82fb5a0382aaeefb695ea5a77643389785c877de495"
+    },
+    {
+      "path": "pitwall/race_model.py",
+      "bytes": 9920,
+      "sha256": "4ec225cfba91a2dc46f217bc34862ceeaffba064ee87dc73739822879788dff5"
+    },
+    {
+      "path": "pitwall/replay.py",
+      "bytes": 16551,
+      "sha256": "fe9da191ffa3309a4db76e44b554e1a00a13b5b6c52b6972faee0b02791ba573"
+    },
+    {
+      "path": "pitwall/rivals.py",
+      "bytes": 6745,
+      "sha256": "df193ba561e24de92c4d0a3e7691f3df831de2fe3714e15095941750fab26aea"
+    },
+    {
+      "path": "pitwall/server.py",
+      "bytes": 10604,
+      "sha256": "7b36c4c49fec0cdf0892601bcebaa9c4ff129b30600565f1663bf757678a1fef"
+    },
+    {
+      "path": "pitwall/service.py",
+      "bytes": 45877,
+      "sha256": "e7a06cbc07fb37f17ae1eefad16944ca0004728baadda28f3e67b6998a85a6fd"
+    },
+    {
+      "path": "pitwall/simulation.py",
+      "bytes": 21502,
+      "sha256": "5c226082561c015cd5727263068094f2a9012e85e2bc5760a3abdeb68f81f277"
+    },
+    {
+      "path": "pitwall/specialists.py",
+      "bytes": 6137,
+      "sha256": "cd0b18ac4225159f80521be1cb953cd7edc1780ee2b248aa0c3920407ed62799"
+    },
+    {
+      "path": "pitwall/validate.py",
+      "bytes": 5675,
+      "sha256": "6506c36c2e141b65f3c84e92916548f3929239d5819a0982c5cf9503098c894f"
+    },
+    {
+      "path": "web/app.js",
+      "bytes": 31807,
+      "sha256": "99d79cece6efde7f6c387661940a117e0e98ad008438e98a96a8194c2e01578a"
+    },
+    {
+      "path": "web/favicon.svg",
+      "bytes": 438,
+      "sha256": "ece8e893d23fff46961f6bcafdc7cdb89c5955fe9e10ee6b0998e5fd2358372d"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 15283,
+      "sha256": "1344623c70fa47e77d73b269ed84fbcb190e9608adbf4f6dcb53a173a8b9276d"
+    },
+    {
+      "path": "web/styles.css",
+      "bytes": 25247,
+      "sha256": "f36f6677328f95328d97f2766c155a58ca057171653d1cb040e8a854f01b9651"
+    },
+    {
+      "path": "tests/browser_smoke.mjs",
+      "bytes": 13829,
+      "sha256": "2fda42497d54bcafe16b522a16c0dac16175eefabe837e77ff720c22e7da61cf"
+    },
+    {
+      "path": "tests/http_smoke.py",
+      "bytes": 8493,
+      "sha256": "68533a2a13d91d7487a83d7ce3e1ede936cd653a97a360fd6e20cd9be6c563e4"
+    },
+    {
+      "path": "tests/test_application.py",
+      "bytes": 19475,
+      "sha256": "e527f0d429842fb7daa35f4e511f4f993c82dfddf4e93fdfc659edfa59288180"
+    },
+    {
+      "path": "tests/test_austin.py",
+      "bytes": 11104,
+      "sha256": "e78a371060cdeb0414a7150d8afed7906f9274bc16277eb6b8b4ed60b7d60371"
+    },
+    {
+      "path": "tests/test_austin_timing.py",
+      "bytes": 7829,
+      "sha256": "39397a8ba3c80cbb5f0883b1c15f1950f70292ee3d605d0074f03bc951d3d1e2"
+    },
+    {
+      "path": "tests/test_configure.py",
+      "bytes": 2144,
+      "sha256": "18a2cc1b441cbc961a21ad10b7b0cd13e66b7b2aef4b53c4c430cec8a3b1b950"
+    },
+    {
+      "path": "tests/test_director_scope.py",
+      "bytes": 11798,
+      "sha256": "f3facd2f1843f28f1bc9ff9511ef0d3fe43f61bcbd4a8a7a0492b27cead086e7"
+    },
+    {
+      "path": "tests/test_evaluation.py",
+      "bytes": 8774,
+      "sha256": "d810a35d684354d4de81b9faf97a4e0727342f012d64917e8bae42466a1ae135"
+    },
+    {
+      "path": "tests/test_gemini.py",
+      "bytes": 7563,
+      "sha256": "ef4e06313e6ed832f34d5352bc3959725d101dc370b5fc18714d52d9a00bd7de"
+    },
+    {
+      "path": "tests/test_race_controls.py",
+      "bytes": 4058,
+      "sha256": "01b31bd1949613fa57444875d0da085c46e2081c7cc9c5ebcfaf178f136a546f"
+    },
+    {
+      "path": "tests/test_race_model.py",
+      "bytes": 12479,
+      "sha256": "8ecb026f4849ccaf6cb1d32d7785a51c9c06d9c310586e257c7c5a08181ef3a5"
+    },
+    {
+      "path": "tests/test_replay.py",
+      "bytes": 17209,
+      "sha256": "4bdf95e12bba3318a05b0c66f126b7dd3b7ebb6cf30c84fa34102bdfa0fd5f40"
+    },
+    {
+      "path": "tests/test_validation_cli.py",
+      "bytes": 2791,
+      "sha256": "1bd295fd04f82b9b69c7b8bcde34a7f9f33c5cd574c6310060647515114d7031"
+    },
+    {
+      "path": "data/austin-2025-demo.json",
+      "bytes": 238033,
+      "sha256": "7e41e1370b36e54f63dc1de3f3f2ca91f7691b43682925f3c39e92db790287ed"
+    },
+    {
+      "path": "data/austin-2025-rivals.json",
+      "bytes": 5301527,
+      "sha256": "2812f65a5d12d6a5fb20d6046712c8610c955b61ef99ee4645c73d0fde807162"
+    },
+    {
+      "path": "data/austin-2025-source.json",
+      "bytes": 2123,
+      "sha256": "6136fbdbf4d49632763558583e08bb0f10e90e8b4c469652abe423acbc391d89"
+    },
+    {
+      "path": "data/spa-2025-demo.json",
+      "bytes": 258772,
+      "sha256": "ba8302ff2eff5433a7f7686e9991a5f812853ee1d6d4f9e24181737175848bae"
+    },
+    {
+      "path": "data/spa-2025-rivals.json",
+      "bytes": 5464239,
+      "sha256": "5af1c5c1f4dc45eebd08d6e06ecb3d9c9578dcd730618fc1f76f5afaf2b1860b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 20589,
+      "sha256": "b54fd90b40dd91c0bbd813d3f1f3947c5eab2330650c03c0d931ceccde3fc048"
+    },
+    {
+      "path": "project.json",
+      "bytes": 2193,
+      "sha256": "64f601f89c7dc6d41bbf924d71ecbd9cb44cfb257f5cda12f96cb39c09f700bd"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 368,
+      "sha256": "fe833cfad02db4883214c079ff7db7058bb698127a7222a9ca2156b2c16fd9d1"
+    },
+    {
+      "path": ".dockerignore",
+      "bytes": 85,
+      "sha256": "1a39163615818956db898c42910e1c9b719e550d0b2629d9922c919d4ff6eb88"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 91,
+      "sha256": "f28fe6416e9d96fb5f48be3df7b68285350dc2c90ce959dc0a7eff6883853c3b"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 438,
+      "sha256": "c45032ceae0d78b780d84c8d44372be107e2b925950977027a60546903c28fd5"
+    },
+    {
+      "path": "start.command",
+      "bytes": 75,
+      "sha256": "9b587a30d0f8ea438583f48ae161b602d04888b3c5b0b4b65afb71bb2c764916"
+    },
+    {
+      "path": "Configure Gemini.command",
+      "bytes": 89,
+      "sha256": "a2b7d076e59fe7c26328d36a5357b2838072e9aee07b081fed7228be24c6fb8d"
+    },
+    {
+      "path": "Configure OpenAI.command",
+      "bytes": 89,
+      "sha256": "078e3f78ec19ddc9a0b410cfbdb93c68a4bb015ed863417c351912da27f2579d"
+    }
+  ],
+  "note": "Credentials, .local databases, raw downloads and the separate Common Health application are excluded."
+}

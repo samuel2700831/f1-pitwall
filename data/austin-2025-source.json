@@ -1,0 +1,73 @@
+{
+  "imported_at": "2026-10-26T02:15:00.783360+00:00",
+  "provider": "https://openf1.org/docs/",
+  "sources": {
+    "sessions": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 1,
+      "sha256": "4d5dec907e00b34e43c54dc866f56853203070e6275c607400d97761b4872dd8"
+    },
+    "drivers": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 20,
+      "sha256": "3378457e28226f4fdadbeab6fc62cc6f15405d2fca87a8d2938a366f3e41e05d"
+    },
+    "laps": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 1067,
+      "sha256": "6118755cbf6d3c477529328529991b8784d4a15cb192845a58265e3de1715a59"
+    },
+    "stints": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 41,
+      "sha256": "c5b64724bae7a2aa5461935618125a6f58051e60f7f9dfff3d6cb10cd3929307"
+    },
+    "position": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 387,
+      "sha256": "2e7458c1bcb58785e9e3be58a5907bd1f3ee9a476ed7ec8ebb4e275b6eea07c4"
+    },
+    "intervals": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 22187,
+      "sha256": "7f7bedcd274b61de517a6037db140fcff95597b435bc54ca985cbf2a124c4fd5"
+    },
+    "pit": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 21,
+      "sha256": "e7cb173af0cba6ddeb2ba8d55e05b2edb9f938d430f5755515acdf71ffa6cb9c"
+    },
+    "weather": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 154,
+      "sha256": "fac15570fc608d11d008cc9bd017e2ff8d519f8b3fdbd17954a068b49d2e5e70"
+    },
+    "race_control": {
+      "query": {
+        "session_key": 9888
+      },
+      "count": 81,
+      "sha256": "452bcc0d950c6e383c3237b5aad409edaa9c07aa553a0fc37cfc99cdae9c0833"
+    }
+  },
+  "timeline_sha256": "aee656316bbe0f68fe49ce12a46abd199826abaeac33b81ea4b29a8ccc5373dd",
+  "rivals_sha256": "3bb54fa9a65ebedfca3c89518bbf11670feb34cd3c256b30bafdb0c050f540f3",
+  "controlled_strategy_removed": true,
+  "pace": "Completed clean laps only, estimated historical tyre wear subtracted; pit-affected laps excluded. Historical boundary timestamps used as replay clock."
+}
