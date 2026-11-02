@@ -1,0 +1,124 @@
+{
+  "audited_at_utc": "2026-11-02T05:25:43.535036+00:00",
+  "scope": "Credential publication audit; not a complete application penetration test.",
+  "scanner": {
+    "name": "Gitleaks",
+    "version": "8.30.1",
+    "official_release_checksum_verified": true,
+    "redaction_percent": 100,
+    "archive_depth": 10
+  },
+  "published_f1": {
+    "repository": "samuel2700831/f1-pitwall",
+    "head": "474ced247c6f2e9c9045841fe381529408374092",
+    "reachable_commits": 3,
+    "unique_blobs": 53,
+    "history_scan": "passed",
+    "all_blob_content_scan": "passed"
+  },
+  "published_commonhealth": {
+    "repository": "samuel2700831/commonhealth-demo",
+    "visibility": "private",
+    "method": "Authenticated browser downloads of all 11 commit snapshots visible on the sole current branch; CLI authentication unavailable.",
+    "snapshots": [
+      {
+        "commit": "155d0af992649e0d89f8a5dee107fc0f68ad4a50",
+        "files": 75,
+        "manifest_sha256": "0c851eda0659ddca641e34086d0f5a66e904e7e2914618c9a61258185620f0b7"
+      },
+      {
+        "commit": "3d86122df71dd3542d3915d9ed612a632ed63d81",
+        "files": 70,
+        "manifest_sha256": "ee0e0edb5bc9d4325872208b66c42463184fa6a864f9563de39d481101d340ae"
+      },
+      {
+        "commit": "4b3adab7e6f84ceeeea8901a4f95a7cb3b068506",
+        "files": 67,
+        "manifest_sha256": "7ec133d8f2540bfc264d519ee19bcefb909c3269292ce98ed64f12f8670f23fe"
+      },
+      {
+        "commit": "5bc4feafba6a1ca1642dd5df9cd1523772570731",
+        "files": 71,
+        "manifest_sha256": "151ee44008552a272b2a106e5be1d546780d7e947c1c48b89c8df7b44c8c6e2b"
+      },
+      {
+        "commit": "9282344e99704c1ad46a0e35e3759fb8d42170be",
+        "files": 68,
+        "manifest_sha256": "40c5fbace645375f13dce4b35c2954c185a4705f7e2222139fb2c4ea26511931"
+      },
+      {
+        "commit": "9b8984b1e4c9fe1fdf8a6c1a67075e44c5f6c19e",
+        "files": 74,
+        "manifest_sha256": "17e16c485c3f8d567ab256237cdde54751d656b7a15275f881b9fa66317c64ab"
+      },
+      {
+        "commit": "c7a393b4462c24544f1766589fb386c173ab9dbc",
+        "files": 66,
+        "manifest_sha256": "8f55e66a11ffe2e3757a833b9ee7a54e46e49e2f43fd58de9df5783dd001967a"
+      },
+      {
+        "commit": "cc40acbe0fc9ffedbd9346434c9a002ced4d51c4",
+        "files": 1,
+        "manifest_sha256": "dda4766226982bb6f120dcafb1eea6924020ae56e140d8c20364d2cb77443282"
+      },
+      {
+        "commit": "d6cc4f0e147ca1b8277bcb025e004f1e8ad23de6",
+        "files": 72,
+        "manifest_sha256": "aebb0c4cba2ec93329ceb4bdf1b4e0ae6bd007ed101e2f7f070d9ab94a35290e"
+      },
+      {
+        "commit": "dae4b2e0d96baff8dbca1ea864dab2a19b04779c",
+        "files": 69,
+        "manifest_sha256": "897b193f7c9a68a09a1b31a786284296ef5fa1ce128e8748b4b7f90fe885b87c"
+      },
+      {
+        "commit": "e52edd622700bb8c053b0e22c91818a5774ac931",
+        "files": 73,
+        "manifest_sha256": "4e6d8ee4c24dc7c953c09224ff5595aab331b8738c9a7d55d954dafa728e4bb7"
+      }
+    ],
+    "unique_file_versions": 75,
+    "content_scan": "passed"
+  },
+  "exact_configured_key_comparison": {
+    "configured_credentials_compared": 4,
+    "files_and_archive_members_checked": 447,
+    "matches": []
+  },
+  "private_file_permissions": [
+    {
+      "file": ".local/gemini.json",
+      "mode": "0o600",
+      "owner_only": true
+    },
+    {
+      "file": ".local/openai.json",
+      "mode": "0o600",
+      "owner_only": true
+    },
+    {
+      "file": ".local/langsmith.json",
+      "mode": "0o600",
+      "owner_only": true
+    }
+  ],
+  "future_controls": {
+    "git_and_docker_exclusions": "expanded",
+    "local_fail_closed_scanner": "scripts/check_secrets.py",
+    "security_check_tests": "4 passed",
+    "ci_workflow": "Prepared in source snapshot; not active until installed in repository .github/workflows.",
+    "packaging": "Explicit allowlist, credential-value checks, required archive secret scan, integrity manifests."
+  },
+  "outstanding_user_action": "Rotate the Neo4j password previously pasted in chat at the provider, update dependent deployment secret, and review usage. No credential value is recorded here.",
+  "limits": [
+    "No claim of zero risk or a complete security audit.",
+    "Deleted/unreachable refs, remote backups, other repositories, account activity, dependency vulnerabilities and production deployment hardening are outside this scan.",
+    "CommonHealth commit metadata/messages were not obtained as a full Git mirror; source contents of all 11 current-history snapshots were scanned.",
+    "CI scans after a push; the local scan is required before publication."
+  ],
+  "prepared_submission": {
+    "archive_scan": "passed",
+    "exact_configured_credential_comparison": "passed",
+    "notes": "Final packaging enforces the scanner again after archive generation. Three initial hash-manifest false positives were resolved by representing file paths and digests as separate fields; no suppression was added."
+  }
+}

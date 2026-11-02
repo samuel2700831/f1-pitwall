@@ -1,0 +1,17 @@
+{
+  "source": {
+    "file": "f1-pitwall-source.zip",
+    "sha256": "21a9dad0c61c855d4323e630d718efdfc10d59ecaee538ccb7ea1d5952d1ecc8",
+    "bytes": 3490117,
+    "files": 135
+  },
+  "evidence": {
+    "file": "f1-pitwall-evaluation-evidence.zip",
+    "sha256": "d89a61e839ecd73902516bdac07ca0dbbbaed3a476363a79fa4b888afcd95752",
+    "bytes": 14437967,
+    "files": 137
+  },
+  "credential_value_scan": "passed",
+  "full_zip_integrity_and_manifest": "passed",
+  "review_access": "Workbook, standalone HTML, JSON results and source/evidence ZIPs can be reviewed without a LangSmith account. Cloud experiment links require workspace access unless separately shared."
+}
